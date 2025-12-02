@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infranest Realty</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #222;
+      background-color: #fafafa;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #ffffff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 4rem;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      color: #1e3a8a;
+      margin: 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #1e3a8a;
+    }
+    section {
+      padding: 6rem 4rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    #home {
+      background: linear-gradient(to right, #e0e7ff, #ffffff);
+      text-align: left;
+      padding-top: 8rem;
+    }
+    #home h2 {
+      font-size: 2.5rem;
+      color: #1e3a8a;
+      margin-bottom: 1rem;
+    }
+    #home p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+    #about h2, #services h2, #contact h2 {
+      color: #1e3a8a;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    #about p, #services p, #contact p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #444;
+    }
+    .services-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .service-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1e3a8a;
+      color: #fff;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Infranest Realty</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Reliable Real Estate Advisory for Delhi-NCR</h2>
+    <p>
+      At <strong>Infranest Realty</strong>, we are your trusted partner in making sound real estate decisions across Delhi, Noida, and Greater Noida. Our consultants prioritize your needs, not sales targets. We take time to understand your requirements and recommend only the most suitable and verified options. Every project we offer has complete approvals in place, ensuring transparency and peace of mind for our clients.
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Founded with the vision to redefine property consulting, <strong>Infranest Realty</strong> stands for trust, transparency, and long-term relationships. Unlike traditional brokers, we operate as advisors who help clients make informed real estate decisions that match their lifestyle, goals, and financial plans.
+    </p>
+    <p>
+      We cater to clients across <strong>Delhi, Noida, and Greater Noida</strong>, with a carefully curated portfolio of residential apartments and villas from reputed developers. In addition, we assist clients seeking investment or leisure properties, including second homes and vacation properties in select Indian cities such as Jaipur, Dehradun, Indore, and Goa. For clients looking beyond borders, we also facilitate overseas property investments through reliable partners.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services-list">
+      <div class="service-card">
+        <h3>Property Advisory</h3>
+        <p>We guide you through the entire decision-making process — from shortlisting the right project to finalizing the deal — ensuring every aspect aligns with your goals.</p>
+      </div>
+      <div class="service-card">
+        <h3>Residential Sales</h3>
+        <p>Specializing in apartments and villas in Delhi-NCR, we offer homes that meet modern living standards and come with full legal and regulatory approvals.</p>
+      </div>
+      <div class="service-card">
+        <h3>Vacation & Second Homes</h3>
+        <p>Explore a selection of reliable and approved vacation homes across Jaipur, Dehradun, Indore, and Goa for leisure or long-term investment opportunities.</p>
+      </div>
+      <div class="service-card">
+        <h3>Overseas Investments</h3>
+        <p>For clients interested in owning a second home abroad, we provide access to verified international property options through reputed global developers and partners.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Ready to make a well-advised real estate move? Reach out to our expert consultants today. We’d love to help you find your perfect property or investment opportunity.
+    </p>
+    <p><strong>Phone:</strong> +91 9821904900, +91 9821502600</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Infranest Realty. All rights reserved.</p>
+  </footer>
+</body>
+</html>
